@@ -5,11 +5,11 @@
 
 ![root](https://github.com/valenvwi/Dish-Review/assets/119674688/b4ca594b-8e11-4ce5-896c-1ff549f04841)
 
-<h4>You can check out all the dishes in the team member dining room and click "View Detail" to check out more.</h4>
+<h4>You can check out all the dishes in the team member dining room and click "View Dish" to check out more.</h4>
 
 ![show](https://github.com/valenvwi/Dish-Review/assets/119674688/17be3fd0-4813-4ebb-9d1a-afd0845a9465)
 
-<h4>After you click "View Detail", you can see the reviews of the dish, and also you can leave one.</h4>
+<h4>After you click "View Dish", you can see the reviews of the dish, and also you can leave one.</h4>
 
 ![making review](https://github.com/valenvwi/Dish-Review/assets/119674688/613b1c32-bab0-4858-bee1-77ea643052e3)
 
