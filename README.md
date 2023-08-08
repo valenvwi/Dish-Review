@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+There is a lot of food served (I call them dishes) in the team member dining room. Not everything is great or bad. This simple webpage for dish review was created with Ruby on Rails and React. On the webpage, you can view all the dishes, see the ratings and also give reviews. Honest reviews will help the team member dining department work better and better.
