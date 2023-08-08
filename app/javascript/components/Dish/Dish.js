@@ -83,9 +83,7 @@ const Dish = () => {
       return (
         <Review
           key={index}
-          // id={review.id}
           attributes={item.attributes}
-          // handleDestroy={handleDestroy}
         />
       )
     })
@@ -97,24 +95,18 @@ const Dish = () => {
       {
         loaded &&
         <Fragment>
-        {/* <Column> */}
           <Main>
               <Header attributes={dish.data.attributes}
               reviews={dish.included}
-              // average={average}
               />
             <ReviewForm
               handleChange={handleChange}
               handleSubmit={handleSubmit}
               setRating={setRating}
-              // attributes={dish.data.attributes}
               review={review}
             />
               {reviews}
           </Main>
-        {/* </Column>
-        <Column> */}
-        {/* </Column> */}
         </Fragment>
       }
     </DishContainer>

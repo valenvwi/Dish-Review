@@ -1,4 +1,6 @@
 body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: auto;
 }

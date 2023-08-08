@@ -23,14 +23,21 @@ const Description = styled.div`
   font-size: 16px;
 `;
 
+// const CreatedAt = styled.div`
+//   padding-top: 15px;
+//   font-size: 14px;
+//   color: black;
+// `;
+
 const Review = (props) => {
-  const { score, title, description } = props.attributes;
+  const { score, title, description, created_at } = props.attributes;
 
   return (
     <Card>
       <RatingContainer>
         <Rating score={score}/>
       </RatingContainer>
+      {/* <CreatedAt>{created_at}</CreatedAt> */}
       <Title>{title}</Title>
       <Description>{description}</Description>
     </Card>

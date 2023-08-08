@@ -9,8 +9,9 @@ module Api
       end
 
       def show
-        # puts DishSerializer.new(dish, options).serialized_json
+        puts DishSerializer.new(@dish, options).serialized_json
         render json: DishSerializer.new(@dish, options).serialized_json
+        @reviews = Review.where(dish_id: @dish.id).order('created_at DESC')
       end
 
       def create
